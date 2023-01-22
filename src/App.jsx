@@ -1,10 +1,11 @@
 import "./App.css";
+import { MyRoutes } from "./routes/MyRoutes";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="bg-blue">Bienes Raices</h1>
-    </div>
+    <>
+      <MyRoutes />
+    </>
   );
 }
 
