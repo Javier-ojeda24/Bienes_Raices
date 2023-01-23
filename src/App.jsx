@@ -1,11 +1,10 @@
-import "./App.css";
 import { MyRoutes } from "./routes/MyRoutes";
 
 function App() {
   return (
-    <>
+    <div>
       <MyRoutes />
-    </>
+    </div>
   );
 }
 

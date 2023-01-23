@@ -9,7 +9,6 @@ export const MyRoutes = () => {
   return (
     <BrowserRouter>
       <Navegacion />
-
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/inicio" element={<Inicio />} />

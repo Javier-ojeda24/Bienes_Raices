@@ -3,10 +3,16 @@ import { NavLink } from "react-router-dom";
 
 export const Navegacion = () => {
   return (
-    <div class="bg-blue-400 w-3">
-      <NavLink to="/inicio">Inicio</NavLink>
-      <NavLink to="/sobre-nosotros">Sobre Nosotros</NavLink>
-      <NavLink to="/contacto">Contacto</NavLink>
+    <div className="bg-gray-300 flex uppercase">
+      <NavLink to="/inicio" className="ml-5">
+        Inicio
+      </NavLink>
+      <NavLink to="/sobre-nosotros" className="ml-5">
+        Sobre Nosotros
+      </NavLink>
+      <NavLink to="/contacto" className="ml-5">
+        Contacto
+      </NavLink>
     </div>
   );
 };
