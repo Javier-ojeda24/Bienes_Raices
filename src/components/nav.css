@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 .ul > li {
   list-style: none;
 }
@@ -9,6 +12,10 @@ body {
   font-family: "Nunito", sans-serif;
 }
 @media screen and (max-width: 1000px) {
+  .navContainer {
+    background-color: blueviolet;
+    width: 100%;
+  }
   .ul {
     position: absolute;
     top: -100%;
@@ -16,7 +23,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: #fefefe;
+    background-color: blueviolet;
   }
   .ul > li {
     padding: 10px 0;
@@ -24,10 +31,53 @@ body {
   .btnToggle {
     z-index: 2;
     position: relative;
-    background-color: #fefefe;
+    background-color: blueviolet;
     border: none;
+    color: white;
   }
   .fs-1 {
-    font-size: 25px;
+    font-size: 30px;
+  }
+  .nav {
+    background-color: blueviolet;
+  }
+  .ul > li > a:hover {
+    color: black;
+  }
+  .ul > li > a {
+    color: white;
+  }
+  .logoImg {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .btnToggle {
+    display: none;
+  }
+  .ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ul > li > a:hover {
+    color: blueviolet;
+  }
+  .ul > li > a {
+    color: gray;
+    font-weight: bolder;
+    font-size: 24px;
+  }
+  .ul > li {
+    padding: 0 80px;
+  }
+  .nav {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0 0 0/ 8%);
+  }
+  .logoImg {
+    width: 80px;
+    height: 50px;
   }
 }
