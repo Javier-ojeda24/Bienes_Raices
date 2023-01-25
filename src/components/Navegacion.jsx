@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
-import logo from "../assets/logo.png";
 
 export const Navegacion = () => {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -33,10 +32,7 @@ export const Navegacion = () => {
 
         <ul className="ul" ref={refMenu}>
           <li>
-            <a href="#">
-              {" "}
-              <img className="logoImg"  src={logo} alt="logo" />
-            </a>
+            <h1 className="logo-h1">Lotes Financiado</h1>
           </li>
           <li>
             <Link to="/inicio">Inicio</Link>

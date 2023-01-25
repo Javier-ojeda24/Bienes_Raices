@@ -23,7 +23,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: blueviolet;
+    background-color: #2c1b21;
   }
   .ul > li {
     padding: 10px 0;
@@ -31,7 +31,7 @@ body {
   .btnToggle {
     z-index: 2;
     position: relative;
-    background-color: blueviolet;
+    background-color: #2c1b21;
     border: none;
     color: white;
   }
@@ -39,16 +39,22 @@ body {
     font-size: 30px;
   }
   .nav {
-    background-color: blueviolet;
+    background-color: #2c1b21;
   }
   .ul > li > a:hover {
-    color: black;
+    color: #9c7b7c;
   }
   .ul > li > a {
-    color: white;
+    color: #a5abae;
+    font-size: 30px;
   }
-  .logoImg {
-    display: none;
+
+  .ul > li > .logo-h1 {
+    color: #d81235;
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
   }
 }
 
@@ -56,16 +62,19 @@ body {
   .btnToggle {
     display: none;
   }
+  .nav {
+    background-color: #2c1b21;
+  }
   .ul {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .ul > li > a:hover {
-    color: blueviolet;
+    color: #9c7b7c;
   }
   .ul > li > a {
-    color: gray;
+    color: #a5abae;
     font-weight: bolder;
     font-size: 24px;
   }
@@ -74,10 +83,18 @@ body {
   }
   .nav {
     padding: 30px;
-    box-shadow: 0 4px 8px rgba(0 0 0/ 8%);
   }
   .logoImg {
     width: 80px;
     height: 50px;
   }
+  .logo-h1 {
+    color: #d81235;
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+  }
 }
+
+
